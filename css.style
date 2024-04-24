@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sarala:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f5f5f5;
+}
+
+html {
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  max-width: 1120px;
+  margin: auto;
+  padding: 1.5rem 10rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.princ {
+  font-family: "Sarala", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  color: #202020;
+}
+
+.git {
+  color: #111111ef;
+  font-weight: 700;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.agrupar {
+  background: rgba(139, 139, 139, 0.384);
+}
+
+.hero {
+
+  max-width: 1120px;
+  height: 56vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+
+  padding: 0rem 2rem;
+  margin: 3rem;
+
+}
+
+.hero-conteudo {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.destaque {
+  font-family: "Sarala", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+hr {
+  border-color: #0d001f;
+}
+
+.subtitulo {
+  color: #050020;
+  font-family: Inter;
+  font-size: 1.1rem;
+  font-weight: 350;
+}
+
+.hero-img-container {
+  min-width: 750px;
+  max-width: 100%;
+  column-count: 3;
+  column-gap: 1rem;
+  gap: 2rem;
+  margin-right: -200px;
+  margin-left: auto;
+}
+
+.hero-img-container > figure > img {
+  width: 110%;
+  border-radius: 0.5rem;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.servicos {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 100%;
+  padding: 3rem 2rem;
+  margin: auto;
+}
+
+.servicos-cabecalho {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+} 
+
+.titulo-servicos {
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  color: #050020;
+}
+
+.destaque-serv {
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Sarala", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+
+
+/* Card */
+.card {
+  width: 300px;
+  height: 420px;
+  margin: 50px;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+
+/* Card Header */
+.card-header {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.card-img {
+  margin-top: 10px;
+  margin-left: 32px;
+  min-width: 80%;
+  width: auto;
+  height: 100%;
+}
+
+.card-img-2 {
+  margin-left: 45px;
+  display: block;
+  min-width: 50%;
+  width: auto;
+  height: 100%;
+}
+
+.card-img-3 {
+  margin-top: 10px;
+  margin-left: 47px;
+  display: block;
+  min-width: 50%;
+  width: auto;
+  height: 100%;
+}
+
+/* Card Body */
+.card-body {
+  height: 170px;
+  padding: 15px;
+  text-align: center;
+  font-family: "Sarala", sans-serif;
+}
+
+.card-backup {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.card-titulo {
+  font-size: 32px;
+  margin: 15px 0;
+}
+
+.card-texto {
+  font-size: 16px;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.card-footer {
+  margin-top: auto;
+  text-align: center;
+  background-color: #000;
+}
+
+.card-footer a {
+  color: #fff;
+  display: block;
+  padding: 16px;
+  text-decoration: none;
+  font-family: "Sarala", sans-serif;
+  font-weight: 600;
+}
+
+footer {
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #2c0cdf1e;
+}
+
+figure {
+  transition: transform 0,5s;
+}
+
+figure:hover {
+  transform: scale(1.5);
+}
